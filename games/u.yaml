@@ -177,13 +177,14 @@
   repo: https://sourceforge.net/projects/ultimatestunts/
   type: remake
   url: https://www.ultimatestunts.nl/
+  added: 2011-06-02
   updated: 2023-01-11
 
 - name: UltraStar Deluxe
   frameworks:
   - SDL2
   langs:
-  - Object Pascal
+  - Pascal
   - Lua
   licenses:
   - GPL2
@@ -191,10 +192,18 @@
   originals:
   - SingStar
   repo: https://github.com/UltraStar-Deluxe/USDX
+  feed: https://github.com/UltraStar-Deluxe/USDX/releases.atom
   status: playable
+  multiplayer:
+  - Competitive
+  - Co-op
+  - Local
   type: remake
-  updated: 2020-08-25
+  added: 2014-09-19
+  updated: 2024-11-07
   url: https://usdx.eu/
+  video:
+    youtube: iIK4w7pd5zU
 
 - name: UltraStar Play
   frameworks:
@@ -203,13 +212,15 @@
   - C#
   licenses:
   - MIT
-  development: sporadic
+  content: open
+  development: active
   originals:
   - SingStar
   repo: https://github.com/UltraStar-Deluxe/Play
   status: playable
   type: remake
-  updated: 2023-07-29
+  added: 2021-06-06
+  updated: 2024-11-08
   url: https://ultrastar-play.com/en
   images:
   - https://ultrastar-play.com/img/carousel/singing-resized.jpg?version=2?imwidth=2048
@@ -223,27 +234,38 @@
   - C++
   licenses:
   - GPL2
-  development: halted
+  content: commercial
+  development: complete
   originals:
   - Super Mario
   repo: https://github.com/jakowskidev/uMario_Jakowski
+  url: https://lukaszjakowski.pl/project,20,mario-cpp.html
   status: playable
   type: remake
-  updated: 2016-03-24
+  added: 2016-03-24
+  updated: 2024-11-09
+  images:
+  - https://lukaszjakowski.pl/img/mario_full-al.png
+  - https://lukaszjakowski.pl/img/mario_full.png
+  video:
+    youtube: jya5He7KFsE
 
 - name: Uncharted waters 2 remake
   langs:
   - TypeScript
+  frameworks:
+  - React
   licenses:
   - MIT
   content: commercial
-  development: sporadic
+  development: halted
   originals:
   - Uncharted Waters
   status: semi-playable
   repo: https://github.com/JohanLi/uncharted-waters-2
   type: remake
-  updated: 2023-02-10
+  added: 2015-04-05
+  updated: 2024-11-10
   url: https://johan.li/uncharted-waters-2
   images:
   - https://media.githubusercontent.com/media/JohanLi/uncharted-waters-2/readme-assets/uncharted-waters-2.png
@@ -283,6 +305,7 @@
   originals:
   - Undertale
   type: tool
+  status: N/A
   repo: https://github.com/UnderminersTeam/UndertaleModTool
   feed: https://github.com/UnderminersTeam/UndertaleModTool/releases.atom
   development: very active
@@ -308,8 +331,8 @@
   type: remake
   repo: 'https://github.com/vividos/UnderworldAdventures'
   url: 'https://vividos.github.io/UnderworldAdventures/'
-  development: sporadic
-  status: playable
+  development: halted
+  status: semi-playable
   content: commercial
   licenses:
   - GPL2
@@ -317,7 +340,8 @@
   - https://vividos.github.io/UnderworldAdventures/images/shot2.jpg
   - https://vividos.github.io/UnderworldAdventures/images/shot3.jpg
   - https://vividos.github.io/UnderworldAdventures/images/shot4.jpg
-  updated: 2021-08-08
+  added: 2021-08-08
+  updated: 2024-11-11
   
 - name: UnderworldExporter
   type: remake
@@ -325,7 +349,7 @@
   - Ultima Underworld
   - 'Ultima Underworld II: Labyrinth of Worlds'
   repo: https://github.com/hankmorgan/UnderworldExporter
-  development: sporadic
+  development: halted
   status: playable
   langs:
   - C#
@@ -335,11 +359,44 @@
   licenses:
   - MIT
   content: commercial
-  updated: 2020-08-31
+  added: 2020-02-25
+  updated: 2024-11-13
   video:
     youtube: 4DZj3eWP9cw
 
+- name: UnderworldGodot
+  originals:
+  - Ultima Underworld
+  - 'Ultima Underworld II: Labyrinth of Worlds'
+  type: remake
+  repo: 'https://github.com/hankmorgan/UnderworldGodot'
+  development: active
+  status: unplayable
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - Godot
+  licenses:
+  - MIT
+  info: This project supercedes the Unity-based project
+  added: '2024-11-18'
+  updated: '2024-11-18'
+  images:
+  - >-
+    https://github.com/hankmorgan/UnderworldGodot/blob/main/resources/screenshots/screenshotuw1.jpg?raw=true
+  - >-
+    https://github.com/hankmorgan/UnderworldGodot/blob/main/resources/screenshots/screenshotuw2.jpg?raw=true
+  - >-
+    https://github.com/hankmorgan/UnderworldGodot/blob/main/resources/screenshots/screenshotuw3.jpg?raw=true
+  - >-
+    https://github.com/hankmorgan/UnderworldGodot/blob/main/resources/screenshots/screenshotuw4.jpg?raw=true
+  - >-
+    https://github.com/hankmorgan/UnderworldGodot/blob/main/resources/screenshots/screenshotuw5.jpg?raw=true
+
 - name: uninvited
+  langs:
+  - Inform 6
   frameworks:
   - Inform
   licenses:
@@ -351,6 +408,7 @@
   status: playable
   repo: https://gitlab.com/DavidGriffith/uninvited
   type: remake
+  added: 2015-04-04
   updated: 2022-01-11
 
 - name: UnityPacmania
@@ -367,9 +425,10 @@
   - Unity
   licenses:
   - As-is
-  updated: '2022-06-28'
+  added: 2022-06-28
+  updated: 2022-06-28
   images:
-  - 'https://www.photovidshow.com/pacmania/pacmania.jpg'
+  - https://github.com/stuart73/UnityPacmania/blob/master/pamania.jpg?raw=true
   video:
     youtube: fsbwAHDhPkk
 
@@ -440,6 +499,7 @@
   licenses:
   - GPL2
   info: We are searching for developers for our Godot Engine port.
+  added: 2019-12-24
   updated: 2023-08-21
   images:
   - https://unknown-horizons.org/static/screenshots/godot/main_menu_godot.png
@@ -463,7 +523,6 @@
   - Daemon Engine
   - SDL2
   - OpenGL
-  - OpenAL
   licenses:
   - GPL3
   - BSD
@@ -481,6 +540,7 @@
   - Natural Selection
   repo: https://github.com/Unvanquished/Unvanquished
   type: similar
+  added: 2013-06-08
   updated: 2023-08-23
   url: https://unvanquished.net
   feed: https://unvanquished.net/feed
@@ -506,6 +566,7 @@
   repo: https://sourceforge.net/projects/sc2/
   type: remake
   url: https://sc2.sourceforge.net/
+  added: 2011-06-02
   updated: 2023-08-24
 
 - name: The Ur-Quan Masters HD MegaMod
@@ -544,7 +605,7 @@
   type: tool
   repo: 'https://github.com/daddesio/utkencode'
   development: halted
-  status: semi-playable
+  status: N/A
   content: commercial
   langs:
   - C
@@ -553,14 +614,15 @@
   info: >-
     Encoder/decoder for the audio codec used by a few older EA games, including
     Beasts and Bumpkins
-  updated: '2023-12-08'
+  added: 2023-12-08
+  updated: 2023-12-08
 
 - name: UchuServer
   originals:
   - Lego Universe
   type: remake
   repo: 'https://github.com/UchuServer/Uchu'
-  development: active
+  development: halted
   status: playable
   multiplayer:
   - Local
@@ -569,9 +631,12 @@
   content: commercial
   langs:
   - 'C#'
+  frameworks:
+  - .NET
   licenses:
-  - GPL3
+  - AGPL3
   info: A Server project emulating original data from NetDevil's Lego Universe (2010)
-  updated: '2022-02-15'
+  added: 2022-02-15
+  updated: 2024-11-21
   video:
     youtube: _b6HYmdcA8c

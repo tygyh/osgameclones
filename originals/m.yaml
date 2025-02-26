@@ -414,6 +414,15 @@
     - Strategy
     - Turn-Based Strategy
 
+- name: Mayhem
+  external:
+    website: 'https://www.lemonamiga.com/games/details.php?id=2972'
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - Shooter
+
 - name: The Maze of Galious
   external:
     wikipedia: The Maze of Galious
@@ -842,6 +851,20 @@
   meta:
     genres:
     - Turn-Based Strategy
+
+- name: 'Moonstone: A Hard Days Knight'
+  external:
+    wikipedia: 'Moonstone: A Hard Days Knight'
+  platforms:
+  - Amiga
+  - DOS
+  meta:
+    genres:
+    - Action
+    - RPG
+    themes:
+    - Fantasy
+    - Medieval
 
 - name: Morpheus
   external:

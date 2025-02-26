@@ -18,6 +18,7 @@
   repo: http://abuse.zoy.org/wiki/download
   status: playable
   type: remake
+  added: 2013-05-27
   updated: 2023-08-26
   url: http://abuse.zoy.org/
   content: swappable
@@ -27,7 +28,7 @@
   - Abuse
   type: remake
   repo: https://github.com/Xenoveritas/abuse
-  development: sporadic
+  development: halted
   status: playable
   content: free
   langs:
@@ -38,7 +39,8 @@
   - PD
   - GPL2
   - WTFPL
-  updated: 2022-06-06
+  added: 2022-06-06
+  updated: 2024-11-25
   images:
   - https://holarse.de/sites/default/files/2011-12-11-313/abuse1.png
   - https://holarse.de/sites/default/files/2011-12-11-313/abuse2.png
@@ -63,7 +65,8 @@
   - GPL2
   - WTFPL
   info: Updated SDL2 port with some additional features
-  updated: '2020-11-17'
+  added: 2020-11-17
+  updated: 2020-11-17
   images:
   - 'https://media.moddb.com/images/games/1/1/138/Abuse_007.png'
   - 'https://media.moddb.com/images/games/1/1/138/Abuse_008.png'
@@ -76,12 +79,13 @@
   - https://kurve.se/screenshots/kurve-round.png
   - https://kurve.se/screenshots/kurve-splash.png
   - https://kurve.se/screenshots/kurve-lobby.png
-  info: The original <kbd>ZATACKA.EXE</kbd> in the browser
+  info: The Elm remake is not yet released, but you can play the legacy JavaScript version
   langs:
+  - Elm
   - JavaScript
   licenses:
   - AGPL3
-  development: complete
+  development: active
   originals:
   - Achtung, die Kurve!
   repo: https://github.com/SimonAlling/kurve
@@ -91,7 +95,8 @@
   multiplayer:
   - Competitive
   - Local
-  updated: 2019-04-29
+  added: 2016-12-11
+  updated: 2024-11-27
   url: https://kurve.se/
 
 - name: achtungkurve.com
@@ -112,6 +117,7 @@
   multiplayer:
   - Competitive
   - Local
+  added: 2016-12-11
   updated: 2023-08-27
   url: https://achtungkurve.com/
 
@@ -120,13 +126,16 @@
   - Ada
   licenses:
   - As-is
-  development: sporadic
+  development: halted
   originals:
   - Doom 3
   repo: https://github.com/AdaDoom3/AdaDoom3
   status: unplayable
   type: remake
-  updated: 2021-01-18
+  added: 2017-04-04
+  updated: 2024-12-01
+  images:
+  - https://raw.githubusercontent.com/AdaDoom3/AdaDoom3/master/Object/EP2PUGuX0AA2Pz_.jpg
 
 - name: Advanced Strategic Command
   images:
@@ -157,7 +166,7 @@
   langs:
   - C++
   frameworks:
-  - SDL
+  - SDL2
   licenses:
   - GPL2
   content: open
@@ -166,7 +175,8 @@
   - Night Stalker
   status: playable
   type: remake
-  updated: 2021-05-20
+  added: 2015-04-16
+  updated: 2024-12-02
   url: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html
 
 - name: Agendaroids
@@ -182,6 +192,7 @@
   - Asteroids
   status: playable
   type: remake
+  added: 2015-04-07
   updated: 2022-02-05
   url: http://www.newbreedsoftware.com/agendaroids/
 
@@ -199,6 +210,7 @@
   status: playable
   repo: https://sourceforge.net/projects/ajax3d/
   type: clone
+  added: 2015-10-09
   updated: 2022-06-25
   url: http://ajax3d.sourceforge.net/
 
@@ -215,6 +227,7 @@
   repo: https://sourceforge.net/projects/aklabeth/
   type: remake
   development: halted
+  added: 2015-04-13
   updated: 2022-06-25
 
 - name: Aladdin_DirectX
@@ -228,6 +241,7 @@
   - DirectX
   development: halted
   repo: https://github.com/phanletrunghieu/Aladdin_DirectX
+  added: 2019-09-30
   updated: 2022-06-25
   licenses:
   - As-is
@@ -239,26 +253,30 @@
   - https://alephone.lhowon.org/images/infinity_collage.png
   langs:
   - C++
-  - Lua
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
+  content: free
   development: active
   originals:
   - Marathon
   - Marathon 2
   - Marathon Infinity
   repo: https://github.com/Aleph-One-Marathon/alephone
+  feed: https://github.com/Aleph-One-Marathon/alephone/releases.atom
   status: playable
   type: remake
-  updated: 2017-10-20
+  added: 2011-06-15
+  updated: 2024-12-08
   url: https://alephone.lhowon.org/
 
 - name: Alien 8
   images:
-  - https://retrospec.sgn.net/config/screenshots/alien8.f.img0.jpg
-  - https://retrospec.sgn.net/config/screenshots/alien8.f.img1.jpg
-  - https://retrospec.sgn.net/config/screenshots/alien8.f.img2.jpg
-  - https://retrospec.sgn.net/config/screenshots/alien8.f.menu.jpg
+  - https://retrospec.sgn.net/style/images/screenshots/alien8_full_1.jpg
+  - https://retrospec.sgn.net/style/images/screenshots/alien8_full_2.jpg
+  - https://retrospec.sgn.net/style/images/screenshots/alien8_full_3.jpg
+  - https://retrospec.sgn.net/style/images/screenshots/alien8_full_4.jpg
   langs:
   - C
   licenses:
@@ -266,11 +284,11 @@
   development: halted
   originals:
   - Alien 8
-  repo: https://retrospec.sgn.net/game-links.php?link=alien8
   status: playable
   type: remake
-  updated: 2014-01-12
-  url: https://retrospec.sgn.net/users/ignacio/a8i.htm
+  added: 2014-01-12
+  updated: 2024-12-09
+  url: https://retrospec.sgn.net/info.htm?id=alien8&t=g
 
 - name: Ambermoon
   originals:
@@ -285,13 +303,15 @@
   licenses:
   - As-is
   info: Historical source code and documents related to Ambermoon
-  updated: '2023-06-03'
+  added: 2023-06-03
+  updated: 2023-06-03
 
 - name: Ambermoon.net
   type: remake
   originals:
   - Ambermoon
   repo: https://github.com/Pyrdacor/Ambermoon.net
+  feed: https://github.com/Pyrdacor/Ambermoon.net/releases.atom
   development: very active
   status: playable
   langs:
@@ -301,6 +321,7 @@
   licenses:
   - GPL3
   content: commercial
+  added: 2021-07-17
   updated: 2021-07-17
   images:
   - https://raw.githubusercontent.com/Pyrdacor/Ambermoon.net/master/Screenshots/MapRendering1.png
@@ -326,7 +347,8 @@
   - SDL
   licenses:
   - GPL3
-  updated: '2023-09-19'
+  added: 2023-09-19
+  updated: 2023-09-19
 
 - name: 'Amnesia: The Dark Descent'
   originals:
@@ -344,7 +366,8 @@
   - OpenGL
   licenses:
   - GPL3
-  updated: '2023-09-09'
+  added: 2023-09-09
+  updated: 2023-09-09
 
 - name: 'Amnesia: The Dark Descent (rework)'
   originals:
@@ -352,7 +375,7 @@
   type: remake
   repo: 'https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent'
   feed: 'https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/releases.atom'
-  development: active
+  development: sporadic
   status: playable
   content: commercial
   langs:
@@ -365,7 +388,8 @@
   - Apache
   - GPL3
   info: This is a heavy rework of the core engine
-  updated: '2023-09-17'
+  added: 2023-09-17
+  updated: 2024-12-15
   images:
   - >-
     https://raw.githubusercontent.com/OSS-Cosmic/AmnesiaTheDarkDescent/master/imgs/shot1.png
@@ -381,12 +405,14 @@
   - JavaScript
   licenses:
   - AGPL3
+  content: open
   development: active
   originals:
   - Heroes of Might and Magic III
   repo: https://github.com/FreezingMoon/AncientBeast
   status: playable
   type: clone
+  added: 2014-01-08
   updated: 2020-08-25
   url: https://ancientbeast.com/
 
@@ -496,26 +522,26 @@
   - PICO-8
   licenses:
   - GPL3
-  development: halted
+  content: open
+  development: complete
   originals:
   - 'Ultima III: Exodus'
   repo: https://github.com/Feneric/Anteform
   status: playable
   type: similar
   url: https://feneric.itch.io/anteform
+  added: 2020-05-19
   updated: 2023-08-30
 
 - name: aoe
-  development: active
+  development: sporadic
   frameworks:
   - SDL2
   images:
   - https://user-images.githubusercontent.com/5989565/80805165-98f9b880-8bb7-11ea-8552-872f572e8a55.png
   - https://user-images.githubusercontent.com/5989565/80805187-a9aa2e80-8bb7-11ea-8f70-6b2106e7a93f.png
   langs:
-  - C
   - C++
-  - Python
   licenses:
   - Apache
   content: commercial
@@ -524,7 +550,8 @@
   repo: https://github.com/FolkertVanVerseveld/aoe
   status: unplayable
   type: remake
-  updated: 2023-07-30
+  added: 2023-07-30
+  updated: 2024-12-19
   info: Re-implementation of Age of Empires and the Rise of Rome expansion.
 
 - name: Apple Flinger
@@ -540,6 +567,7 @@
   - Java
   licenses:
   - GPL3
+  added: 2022-04-21
   updated: 2022-04-21
   images:
   - https://f-droid.org/repo/com.gitlab.ardash.appleflinger.android/en/phoneScreenshots/M_1_1.png
@@ -558,12 +586,14 @@
   - Cocos2d
   licenses:
   - MIT
+  content: open
   development: halted
   originals:
   - Aquastax
   status: semi-playable
   repo: https://github.com/LongSteve/aquastax
   type: remake
+  added: 2017-12-12
   updated: 2022-06-25
 
 - name: Arashi-JS
@@ -574,9 +604,10 @@
   development: halted
   originals:
   - Tempest
-  status: playable
+  status: semi-playable
   repo: https://github.com/stephank/arashi-js
   type: remake
+  added: 2014-01-12
   updated: 2021-08-01
   url: http://stephank.github.io/arashi-js/
   info: adapted from ARASHI for the Apple Macintosh
@@ -597,6 +628,7 @@
   status: unplayable
   repo: https://sourceforge.net/projects/ardreil/
   type: remake
+  added: 2015-04-09
   updated: 2022-03-11
   url: http://ardreil.sourceforge.net/
 
@@ -633,7 +665,7 @@
   - 'https://www.armagetronad.org/screenshots/ss_fort_2.png'
   - 'https://www.armagetronad.org/screenshots/ss_fort_3.png'
 
-- name: Armor Alley
+- name: 'Armor Alley: Remastered'
   langs:
   - JavaScript
   licenses:
@@ -645,12 +677,14 @@
   status: playable
   repo: https://github.com/scottschiller/ArmorAlley
   type: remake
-  updated: 2022-06-25
-  url: http://www.schillmania.com/armor-alley/
+  added: 2015-05-05
+  updated: 2024-12-25
+  url: https://armor-alley.net
   video:
-    youtube: 9BQ62c7u2JM
+    youtube: oYUCUvg02rY
   images:
   - https://user-images.githubusercontent.com/174437/148264540-d92c7440-8170-4413-b143-e113717ead8f.png
+  info: 'Armor Alley: Remastered is a modern, browser-based version of a classic Mac + PC game.'
 
 - name: Arrakis
   originals:
@@ -670,6 +704,7 @@
     An old RTS game inspired by Dune II and Command & Conquer, written in Quick
     Basic. All graphics drawn by the author, but uses sound effects extracted from
     Dune II.
+  added: 2021-08-27
   updated: 2021-08-27
   images:
   - https://arrakis.dune2k.com/images/shots/arrakis_large.png
@@ -677,21 +712,30 @@
 - name: Artillery Duel Reloaded
   images:
   - https://www.pygame.org/shots/1519.jpg
+  url: https://www.pygame.org/project/1519
   langs:
   - Python
+  frameworks:
+  - pygame
   licenses:
   - GPL3
+  content: open
   development: halted
   originals:
   - Artillery Duel
   status: playable
   repo: https://code.google.com/archive/p/artillery-duel-reloaded/
   type: remake
-  updated: 2022-03-21
+  added: 2015-04-11
+  updated: 2024-12-27
 
 - name: Arx Libertatis
-  development: active
+  development: sporadic
   images:
+  - https://wiki.arx-libertatis.org/images/5/59/Jumping.jpg
+  - https://wiki.arx-libertatis.org/images/3/37/Korean.jpg
+  - https://wiki.arx-libertatis.org/images/e/e5/Cinematic.jpg
+  - https://wiki.arx-libertatis.org/images/3/31/Gambling.jpg
   - https://wiki.arx-libertatis.org/images/thumb/b/b9/Spell.jpg/288px-Spell.jpg
   - https://wiki.arx-libertatis.org/images/e/e8/Spidernew.jpg
   - https://wiki.arx-libertatis.org/images/e/e1/Castle.jpg
@@ -709,8 +753,10 @@
   status: playable
   repo: https://github.com/arx/ArxLibertatis
   type: remake
-  updated: 2021-05-08
-  url: http://arx-libertatis.org/
+  added: 2013-05-27
+  updated: 2024-12-28
+  url: https://arx-libertatis.org
+  feed: https://arx-libertatis.org/feed.rss
   video:
     youtube: mIribIqKee8
 
@@ -725,6 +771,7 @@
   status: playable
   repo: https://github.com/TimPietrusky/asdf
   type: remake
+  added: 2015-05-28
   updated: 2022-06-25
 
 - name: AstroMenace
@@ -741,13 +788,15 @@
   - SDL2
   licenses:
   - GPL3
-  development: sporadic
+  content: open
+  development: halted
   originals:
   - AstroMenace
   status: playable
   repo: https://github.com/viewizard/astromenace
   url: https://viewizard.com/
   type: official
+  added: 2015-04-08
   updated: 2023-08-31
   video:
     youtube: ysY9vKKisbo
@@ -764,6 +813,7 @@
   status: unplayable
   repo: https://github.com/sidneycadot/Atari8bit_StarRaiders
   type: remake
+  added: 2015-07-14
   updated: 2022-06-25
 
 - name: Athena Crisis
@@ -803,37 +853,55 @@
   repo: https://github.com/Nebuleon/ativayeban
   status: playable
   type: clone
+  added: 2015-05-03
   updated: 2015-05-03
 
 - name: Atomic Tanks
   images:
-  - https://atanks.sourceforge.net/Screenshots/scrnshot28.png
-  - https://atanks.sourceforge.net/Screenshots/scrnshot23.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot28.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot29.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot30.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot27.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot19.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot20.png
   licenses:
   - GPL2
-  development: sporadic
+  content: open
+  development: halted
+  langs:
+  - C++
+  frameworks:
+  - Allegro
   originals:
   - Scorched Earth
   repo: https://sourceforge.net/projects/atanks/
+  feed: https://sourceforge.net/p/atanks/activity/feed
   status: playable
+  multiplayer:
+  - Competitive
+  - Hotseat
   type: remake
-  updated: 2013-06-06
+  added: 2013-06-06
+  updated: 2025-01-03
   url: https://atanks.sourceforge.io
 
 - name: Atomiks
   development: halted
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  content: commercial
+  content: free
   originals:
   - Atomix
   repo: https://sourceforge.net/projects/atomiks/
   status: playable
   type: remake
-  updated: 2021-01-25
-  url: http://atomiks.sourceforge.net/
+  added: 2014-03-25
+  updated: 2025-01-04
+  url: https://atomiks.sourceforge.net
   images:
   - https://a.fsdn.com/con/app/proj/atomiks/screenshots/atomiks1.png/245/183/1.5
   - https://a.fsdn.com/con/app/proj/atomiks/screenshots/atomiks2.png/245/183/1.5
@@ -845,7 +913,9 @@
   originals:
   - Caesar III
   type: remake
-  repo: 'https://github.com/Keriew/augustus'
+  repo: https://github.com/Keriew/augustus
+  feed: https://github.com/Keriew/augustus/releases.atom
+  url: https://augustus.josecadete.net/play/
   development: very active
   status: playable
   content: commercial
@@ -856,6 +926,8 @@
   licenses:
   - AGPL3
   info:  Augustus is fork of Julius, which changes core gameplay that makes its game saves not compatible with original Caesar 3 and Julius games.
+  added: 2020-12-04
   updated: 2023-08-31
   images:
+  - https://ppb.chymera.eu/fefa2d.png
   - 'https://raw.githubusercontent.com/Keriew/augustus/master/res/vita/bg.png'

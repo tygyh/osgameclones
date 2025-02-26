@@ -112,6 +112,29 @@
   images:
   - 'https://inews.gtimg.com/newsapp_bt/0/13183252358/1000'
 
+- name: Pandora's Blocks
+  originals:
+  - 'Tetris: The Grand Master'
+  type: clone
+  repo: 'https://github.com/Villadelfia/dmgtris'
+  url: 'https://villadelfia.org/dmgtris/'
+  feed: 'https://github.com/Villadelfia/dmgtris/releases.atom'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  info: >-
+    Pandora's Blocks (formerly DMGTRIS) is a block stacking game for the original
+    game boy written in assembly.
+  added: '2025-01-05'
+  updated: '2025-01-05'
+  images:
+  - 'https://villadelfia.org/i/xAAHfqDw.png'
+  - 'https://villadelfia.org/i/Hj2P8Pk5.png'
+
 - name: Panel Attack
   frameworks:
   - LÖVE
@@ -308,6 +331,7 @@
   originals:
   - Perimeter
   type: official
+  status: playable
   repo: 'https://github.com/KD-lab-Open-Source/Perimeter'
   url: 'https://store.steampowered.com/app/289440/Perimeter/'
   feed: 'https://github.com/KD-lab-Open-Source/Perimeter/releases.atom'
@@ -477,6 +501,24 @@
   images:
   - 'https://github.com/tassaron/pipe-puzzle'
 
+- name: pitfall-js
+  originals:
+  - Pitfall!
+  type: remake
+  repo: 'https://github.com/meatfighter/pitfall-js'
+  url: 'https://meatfighter.com/pitfall-web/'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - TypeScript
+  licenses:
+  - GPL3
+  added: '2025-01-31'
+  updated: '2025-01-31'
+  images:
+  - 'https://meatfighter.com/pitfall-web/images/harry.png'
+
 - name: Pizza Business
   images:
   - https://pizza-business.sourceforge.net/gtk1.png
@@ -565,6 +607,7 @@
   originals:
   - RimWorld
   type: tool
+  status: N/A
   repo: 'https://github.com/edbmods/EdBPrepareCarefully'
   feed: 'https://github.com/edbmods/EdBPrepareCarefully/releases.atom'
   development: sporadic
@@ -690,6 +733,35 @@
     https://cloud.githubusercontent.com/assets/22880786/19826387/7ad0f0d2-9dd4-11e6-92f3-eb47b395ac63.png
   video:
     youtube: mVzuBIBCL5o
+
+- name: ProtoType
+  originals:
+  - R-Type
+  type: clone
+  repo: 'https://github.com/ptitSeb/prototype'
+  url: 'http://ptitseb.github.io/prototype/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - SDL
+  licenses:
+  - PD
+  info: 'Ported to OpenPandora, Linux, ODROID and AmigaOS4'
+  added: '2024-12-30'
+  updated: '2024-12-30'
+  images:
+  - >-
+    https://web.archive.org/web/20150919133054if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot1.jpg
+  - >-
+    https://web.archive.org/web/20150919200036if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot2.jpg
+  - >-
+    https://web.archive.org/web/20150919135545if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot3.jpg
+  - >-
+    https://web.archive.org/web/20150919135232if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot4.jpg
 
 - name: Pokémon Polished Crystal
   originals:
@@ -1114,6 +1186,23 @@
   - WTFPL
   info: Based on the original open source release, updated with free assets.
   updated: '2020-12-12'
+
+- name: The Puzzle Pits
+  originals:
+  - The Puzzle Pits
+  type: official
+  repo: 'https://github.com/LaPingvino/The-Puzzle-Pits'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - Apache
+  added: '2024-12-18'
+  updated: '2024-12-18'
+  video:
+    youtube: dLpuikLeNxY
 
 - name: Py1945
   langs:

@@ -127,7 +127,7 @@
   type: tool
   repo: 'https://github.com/kran27/VBEditor'
   development: halted
-  status: unplayable
+  status: N/A
   content: commercial
   langs:
   - Visual Basic .NET
@@ -494,6 +494,38 @@
   video:
     youtube: s5kV-TuJc7c
   info: Forked from Minetest 0.3.x
+
+- name: VoxeLibre
+  development: active
+  images:
+  - https://content.luanti.org/uploads/55ab4fc1b5.png
+  - https://content.luanti.org/uploads/tgbH5CwlAZ.jpg
+  - https://content.luanti.org/uploads/4z6ZKfwnXa.jpg
+  - https://content.luanti.org/uploads/I20joj30gs.jpg
+  - https://content.luanti.org/uploads/zWwSwMd5df.png
+  langs:
+  - Lua
+  frameworks:
+  - Luanti
+  licenses:
+  - GPL3
+  - CC-BY-SA
+  - CC0
+  content: open
+  originals:
+  - Minecraft
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  repo: https://git.minetest.land/VoxeLibre/VoxeLibre
+  type: clone
+  info: (formerly known as MineClone2), a voxel-based sandbox game for Minetest
+  added: 2021-06-18
+  updated: 2025-01-14
+  url: https://content.luanti.org/packages/Wuzzy/mineclone2/
+  video:
+    youtube: F-Lai53_Ry4
 
 - name: Voxelstein 3D
   langs:

@@ -42,6 +42,7 @@
   - Mafia III
   - 'Mafia: Definitive Edition'
   type: tool
+  status: N/A
   repo: 'https://github.com/Greavesy1899/Mafia2Toolkit'
   feed: https://github.com/Greavesy1899/MafiaToolkit/releases.atom
   development: active
@@ -210,6 +211,7 @@
   status: unplayable
   repo: https://github.com/davido262/marble-madness-3d
   type: remake
+  added: 2015-04-03
   updated: 2021-11-08
 
 - name: Marblez
@@ -280,6 +282,7 @@
   originals:
   - Max Payne
   type: tool
+  status: N/A
   repo: https://github.com/fgsfdsfgs/max_vita
   development: halted
   content: commercial
@@ -309,6 +312,57 @@
   type: remake
   updated: 2022-09-19
   url: https://sourceforge.net/projects/maxit/
+
+- name: Mayhem
+  originals:
+  - Mayhem
+  type: remake
+  repo: 'https://github.com/devpack/mayhem'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - Split-screen
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: PC port
+  added: '2025-02-12'
+  updated: '2025-02-12'
+  images:
+  - 'https://raw.githubusercontent.com/devpack/mayhem/master/wiki/mayhem.jpg'
+
+- name: Mayhem 2
+  originals:
+  - Mayhem
+  type: remake
+  repo: 'https://github.com/martinohanlon/mayhem'
+  url: 'https://www.stuffaboutcode.com/2016/06/mayhem-2-open-source-cave-shooter.html'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - Split-screen
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - BSD
+  info: 'raspberry pi port also available at https://github.com/martinohanlon/mayhem-pi'
+  added: '2025-02-12'
+  updated: '2025-02-12'
+  images:
+  - 'https://github.com/martinohanlon/mayhem/blob/master/mayhem2.jpg?raw=true'
+  video:
+    youtube: Vxozz0Ijdr0
 
 - name: mc2
   langs:
@@ -631,32 +685,6 @@
   - https://mindustrygame.github.io/2.0d4f9a35.webp
   - https://mindustrygame.github.io/3.88567664.webp
 
-- name: MineClone 2
-  development: sporadic
-  images:
-  - https://i.imgur.com/1oOMc1L.png
-  - https://i.imgur.com/R7B0E54.png
-  langs:
-  - Lua
-  frameworks:
-  - Minetest Engine
-  licenses:
-  - GPL3
-  - CC-BY-SA
-  - CC0
-  content: open
-  originals:
-  - Minecraft
-  status: playable
-  multiplayer:
-  - Online
-  - LAN
-  repo: https://git.minetest.land/MineClone2/MineClone2
-  type: clone
-  info: A Minecraft Java Edition 1.12 clone built as a Minetest game
-  updated: 2023-09-25
-  url: https://content.minetest.net/packages/Wuzzy/mineclone2/
-
 - name: Minecraft
   originals:
   - Minecraft
@@ -833,14 +861,21 @@
   updated: 2023-10-02
   url: https://minesweeper.zone
 
-- name: Minetest
+- name: Minetest Game
   development: very active
   images:
-  - https://www.minetest.net/media/gallery/1.jpg
-  - https://www.minetest.net/media/gallery/6.jpg
+  - https://www.luanti.org/media/gallery/1.jpg
+  - https://www.luanti.org/media/gallery/2.jpg
+  - https://www.luanti.org/media/gallery/3.jpg
+  - https://www.luanti.org/media/gallery/4.jpg
+  - https://www.luanti.org/media/gallery/5.jpg
+  - https://www.luanti.org/media/gallery/6.jpg
+  - https://www.luanti.org/media/gallery/7.jpg
+  - https://www.luanti.org/media/gallery/8.jpg
   langs:
-  - C++
   - Lua
+  frameworks:
+  - Luanti
   licenses:
   - LGPL2
   - CC-BY-SA
@@ -851,11 +886,13 @@
   multiplayer:
   - Online
   - LAN
-  repo: https://github.com/minetest/minetest
-  info: Mintest is an engine, but ships with the game Minetest Game
+  repo: https://github.com/minetest/minetest_game
+  info: Minetest Game (abbreviated MTG) is a simple and peaceful sandbox game, with no real goals or built-in enemy mobs.
   type: similar
-  updated: 2023-10-03
-  url: https://www.minetest.net/
+  added: 2013-10-10
+  updated: 2025-01-08
+  url: https://www.luanti.org
+  feed: https://blog.luanti.org/feed.rss
 
 - name: Minima
   images:

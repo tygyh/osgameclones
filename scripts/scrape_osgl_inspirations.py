@@ -19,6 +19,7 @@ ALIASES = {
     "Civilization series": "Civilization",
     "Company of Heroes: Opposing Fronts": "Company of Heroes",
     "Company of Heroes: Tales of Valor": "Company of Heroes",
+    "CrossFire 1981": "Crossfire",
     "CrossUO": "CrossUO: Ultima Online",
     "Final Fantasy series": "Final Fantasy",
     "Krush Kill 'n' Destroy": "Krush, Kill 'n' Destroy",
@@ -52,20 +53,26 @@ BLACKLIST = {
     "Blob Wars Attrition",
     "Blobby Volley",
     "Brogue",
+    "Cards Against Humanity",
+    "Catan",
     "Chromium B.S.U.",
     "CorsixTH",
-    "Crossfire",
     "Cube",
     "Cube 2: Sauerbraten",
     "CUBE engine",
     "Daimonin",
+    "Dragon Wars",
     "DragonBall",
     "Dungeon Crawl Stone Soup",
+    "Elite Command",
+    "Emerald Mine",     # clone of Boulder Dash
     "Eternal Lands",
     "Falcon's Eye",
+    "Final Fantasy series",   # not specific enough
     "Flixel",
     "FooBillard",
     "GalaxyMage",
+    "Game of Life",  # ambiguous, combines >1 game
     "GearHead",
     "GL-117",
     "Kobold's Quest",
@@ -104,6 +111,7 @@ BLACKLIST_CLONES = {
     "CommonDrops",  # halted, unknown status
     "DOOM-iOS",  # Superseded by DOOM-iOS2
     "Slot-Racers",  # 404, inactive
+    "Story of a Lost Sky",  # halted, unclear how good/playable it is
 }
 
 

@@ -68,6 +68,24 @@
     genres:
     - Racing
 
+- name: Carrier Command
+  external:
+    wikipedia: Carrier Command
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Atari
+  - Classic Mac OS
+  - Commodore 64
+  - ZX Spectrum
+  meta:
+    genres:
+    - Real-Time Strategy
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Sci-Fi
+
 - name: Cart Life
   external:
     wikipedia: Cart Life
@@ -677,6 +695,21 @@
     - Racing
     themes:
     - Prehistoric
+
+- name: Crossfire
+  external:
+    wikipedia: Crossfire (1981 video game)
+  platforms:
+  - Apple II
+  - Atari
+  - Commodore 64
+  meta:
+    genres:
+    - Action
+    - Arcade
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Cruise for a Corpse
   external:

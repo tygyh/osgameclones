@@ -661,6 +661,25 @@
   content: free
   updated: 2019-05-09
 
+- name: Seafood Berserker!
+  originals:
+  - Fruit Ninja
+  type: clone
+  repo: 'https://github.com/quaap/SeafoodBerserker'
+  url: 'https://quaap.com/D/SeafoodBerserker'
+  feed: 'https://github.com/quaap/SeafoodBerserker/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  added: '2024-12-12'
+  updated: '2024-12-12'
+  video:
+    youtube: _1qAJ96vnpQ
+
 - name: Secret Agent Remake
   originals:
   - Secret Agent
@@ -1080,7 +1099,7 @@
 - name: Silent Hill 2 Enhancement
   originals:
   - Silent Hill 2
-  status: playable
+  status: N/A
   type: tool
   repo: https://github.com/elishacloud/Silent-Hill-2-Enhancements
   url: https://enhanced.townofsilenthill.com/SH2/
@@ -1214,6 +1233,7 @@
   originals:
   - Doom
   type: tool
+  status: N/A
   repo: https://github.com/sirjuddington/SLADE
   url: https://slade.mancubus.net/
   development: active
@@ -1490,7 +1510,7 @@
   - Legend of Zelda - A Link to the Past
   status: playable
   repo: https://gitlab.com/solarus-games/solarus
-  type: tool
+  type: clone
   updated: 2020-08-25
   url: https://www.solarus-games.org
   video:
@@ -1540,6 +1560,7 @@
   originals:
   - Sonic Adventure
   type: tool
+  status: N/A
   repo: 'https://github.com/sonicretro/sa_tools'
   url: https://info.sonicretro.org/SA_Tools
   development: active
@@ -1600,7 +1621,7 @@
   video:
     youtube: gzIfRW91IxE
 
-- name: 'Sonic 3: Angel Island Revistied'
+- name: 'Sonic 3 A.I.R - Angel Island Revisited'
   originals:
   - Sonic the Hedgehog
   type: remake
@@ -1735,6 +1756,28 @@
   url: https://smcameron.github.io/space-nerds-in-space/
   video:
     youtube: 3fFl0VH-4zA
+
+- name: Space Opera
+  originals:
+  - Galactic Civilizations
+  - Master of Orion
+  type: similar
+  repo: 'https://sourceforge.net/projects/spaceopera/'
+  url: 'https://spaceopera.sourceforge.net'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  added: '2024-12-24'
+  updated: '2024-12-24'
+  images:
+  - 'https://spaceopera.sourceforge.net/SpaceOperaMain.jpg'
+  - 'https://spaceopera.sourceforge.net/SpaceOpera.jpg'
+  - 'https://spaceopera.sourceforge.net/blue2.jpg'
+  - 'https://spaceopera.sourceforge.net/green3.jpg'
 
 - name: Space Station 14
   type: remake
@@ -2023,6 +2066,7 @@
 
 - name: SR
   type: tool
+  status: N/A
   originals:
   - Albion
   - 'Septerra Core: Legacy of the Creator'

@@ -429,6 +429,7 @@
   - The Hobbit
   repo: https://github.com/richcarl/hobbitgfx
   type: tool
+  status: N/A
   updated: 2022-01-15
   url: https://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
   info: This implements the graphics engine from the 1982 text adventure game The Hobbit
@@ -575,12 +576,12 @@
 
 - name: HyperRogue
   originals:
-  - HyperRogue
-  type: remake
+  - Deadly Rooms of Death
+  type: similar
   repo: 'https://github.com/zenorogue/hyperrogue'
   url: https://roguetemple.com/z/hyper/
   feed: https://zenorogue.blogspot.com/feeds/posts/default
-  development: active
+  development: sporadic
   status: playable
   content: swappable
   langs:
@@ -589,11 +590,40 @@
   - SDL
   licenses:
   - GPL2
-  info: Original source code of game
-  updated: '2020-02-24'
+  added: 2020-02-24
+  updated: 2024-11-29
   images:
   - 'https://roguetemple.com/z/hyper/barriers.png'
   - 'https://roguetemple.com/z/hyper/caves2.png'
   - 'https://roguetemple.com/z/hyper/alchemist.png'
   video:
     youtube: xAFrKKApHTY
+
+- name: Hypersomnia
+  originals:
+  - Hotline Miami
+  type: similar
+  repo: 'https://github.com/TeamHypersomnia/Hypersomnia'
+  url: 'https://hypersomnia.xyz'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - Co-op
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - AGPL3
+  info: combines the intensity of Counter-Strike with mechanics of Hotline Miami
+  added: '2025-01-18'
+  updated: '2025-01-18'
+  images:
+  - >-
+    https://github.com/TeamHypersomnia/Hypersomnia/assets/3588717/8ccf0d22-317d-459d-8c19-3b4830968545
+  video:
+    youtube: L4zSA34fD_E
