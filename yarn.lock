@@ -521,10 +521,10 @@ jws@^3.2.2:
     jwa "^1.4.1"
     safe-buffer "^5.0.1"
 
-linguist-languages@^7.27.0:
-  version "7.27.0"
-  resolved "https://registry.yarnpkg.com/linguist-languages/-/linguist-languages-7.27.0.tgz#bf42d6c62bd04655c8f60ed2f77a84eaeae4023a"
-  integrity sha512-Wzx/22c5Jsv2ag+uKy+ITanGA5hzvBZngrNGDXLTC7ZjGM6FLCYGgomauTkxNJeP9of353OM0pWqngYA180xgw==
+linguist-languages@^7.29.0:
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/linguist-languages/-/linguist-languages-7.29.0.tgz#9485a9e7e012f0c2358b68dbb0755bcf906d7d48"
+  integrity sha512-KTh6ltVzr3ycnqxWw7zlzy8CqTSrpdymUzGl0EgYxK7cHoRgsX3VrZw4ExCWGCPX3uxxa7kgZwir4zeQkqjdZw==
 
 lodash.find@^4.6.0:
   version "4.6.0"
